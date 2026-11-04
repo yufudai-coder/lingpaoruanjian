@@ -1,0 +1,11 @@
+name = "car-license-server"
+main = "src/index.js"
+compatibility_date = "2026-11-04"
+
+[vars]
+PRODUCTS = "APP_A,APP_B"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "license-db"
+database_id = "PASTE_DATABASE_ID_HERE"
